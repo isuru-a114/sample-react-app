@@ -8,6 +8,24 @@
       "type": "image/x-icon"
     }
   ],
+  "permissions": {
+    "serviceworker": {
+      "description": "Needed for assocating service worker"
+    },
+    "desktop-notification": {
+      "description": "To show notifications"
+    },
+    "notifications": {},
+    "push": {
+      "description": "Required for being updated with new goals in soccer matches"
+    },
+    "geolocation": {
+      "description": "Marking out user location"
+    },
+    "alarms": {
+      "description": "Scheduling alarms"
+    }
+  },
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
