@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "name": "Covid Trivia",
+  "start_url": "https://react-sample-app.herokuapp.com/customerlist",
+  "description": "Click to make the ball jump. Pass through the walls when they are the same color.",
+  "subtitle": "Make the ball match the wall",
+  "icons": {
+    "16": "/icons/corona_16.png",
+    "48": "/icons/corona_48.png",
+    "60": "/icons/corona_60.png",
+    "128": "/icons/corona_128.png"
+  },
+  "developer": {
+    "name": "Eyepax",
+    "url": "https://www.eyepax.com"
+  },
+  "dependencies": {
+		"ads-sdk": "1.3.0"
+	},
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en-US",
+  "categories": [
+    "sports",
+    "health"
+  ],
+  "permissions": {
+    "serviceworker": {
+    "description": "Needed for assocating service worker"
+  },
+  "desktop-notification": {
+    "description": "Needed for creating system notifications."
+  },
+     "notifications": {
+       
+     },
+    "push": {
+      "description": "Required for being updated with new goals in soccer matches"
+    },
+    "geolocation": {
+      "description": "Marking out user location"
+    },
+    "alarms": {
+      "description": "Scheduling alarms"
+    }
+  },
+  "messages": [{"serviceworker-notification": "/index.html"}],
+    "chrome": {
+      "statusbar": "overlap"
+    },
+    "orientation": "default",
+    "locales": {
+      "en-US": {
+        "name": "Calculator",
+        "description": "Template App for KaiOS"
+      },
+      "zh-CN": {
+        "name": "模板",
+        "description": "KaiOS模板应用"
+      }
+    },
+    "default_locale": "en-US"
+}
