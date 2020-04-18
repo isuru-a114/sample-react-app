@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "Covid Trivia",
-  "launch_path" : "/index.html",
+  "start_url": "https://react-sample-app.herokuapp.com/customerlist",
   "description": "Corona covid-19 Trivia Game. Stay home safty, and well healthy.",
   "subtitle": "Corona covid-19 Trivia Game.",
   "icons": {
