@@ -8,12 +8,6 @@
       "type": "image/x-icon"
     }
   ],
-  "serviceworker": {
-    "src": "./norification/service-worker.js",
-    "scope": "/app",
-    "type": "",
-    "update_via_cache": "none"
-  },
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
