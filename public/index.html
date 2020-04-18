@@ -49,7 +49,25 @@
     } else {
       console.log('Service workers are not supported.');
     }
+
+    if (Notification.permission === "granted") {
+      // If it's okay let's create a notification
+      navigator.serviceWorker.getRegistration().then(
+        reg => {
+          reg.pushManager.subscribe({
+            userVisibleOnly: true
+          }).then(sub => {
+            //end poin
+            console.log(sub.toJSON());
+          })
+        }
+      )
+      var notification = new Notification('Hello world!');
+    }
+
   </script>
+
+
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
